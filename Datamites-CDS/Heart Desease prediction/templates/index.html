@@ -1,0 +1,26 @@
+
+<html >
+<head>
+    <title>HEart Desease PRedictiction</title>
+</head>
+<body>
+    
+    <h1>HEart Desease PRedictiction</h1>
+    <h2>Random Foreest</h2>
+    <form method="post" action="/predict">
+            <p>slope_of_peak_exercise_st_segment</p>
+            <input name = 'st' required ></input>
+            <p>thal</p>
+            <p>1 = Normal, 2 = reversible_defect, 3 =fixed_defect</p>
+            <input name = 'thal' required ></input>
+            <p>chest_pain_type</p>
+            <input name = 'chst' required ></input>
+            <p>max_heart_rate_achieved</p>
+            <input name = 'max_rate' required ></input>
+            <br>
+            <br>
+            <button type = 'submit' >Submit</button>
+    </form>
+
+</body>
+</html>
